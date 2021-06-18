@@ -1,4 +1,4 @@
-FROM nginx:1.11-alpine
+FROM centos:latest
 COPY index.html /var/www/html/
 MAINTAINER septa
 EXPOSE 80
